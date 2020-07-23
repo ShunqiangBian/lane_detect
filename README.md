@@ -8,6 +8,7 @@ val_dataset：20%
 test_dataset：20%
 
 ## U-Net 骨干网络
+```json
 下采样：
 ModuleList(
   (0): UNetConvBlock(
@@ -99,6 +100,7 @@ ModuleList(
     )
   )
 )
+```
 
 ## 运行
 ```base
